@@ -3,7 +3,7 @@ Mac OS running on QEMU-KVM (Pre-install 20GB)
 
 -Note: It will use all available free ram and CPUs.
 
--How it work: Pre-install QCOW2, connect with VNC at port 5900 
+-How it work: Pre-install QCOW2 (128 GB), connect with VNC at port 5900 
 
 ![image](https://user-images.githubusercontent.com/58414694/146664162-a2b95463-207f-4067-a257-227e74fe53db.png)
 
