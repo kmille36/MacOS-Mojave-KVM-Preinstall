@@ -5,6 +5,7 @@ git clone https://github.com/foxlet/macOS-Simple-KVM.git
 cd macOS-Simple-KVM
 sudo python3  -m pip install click
 ./jumpstart.sh --mojave
+echo "Downloading Mac OS Mojave Disk..." 
 wget -q --show-progress --no-check-certificate -O MyDisk.qcow2 https://tinyurl.com/9v4p8d5c
 cpus=$(lscpu | grep CPU\(s\) | head -1 | cut -f2 -d":" | awk '{$1=$1;print}')
 availableRAMcommand="free -m | tail -2 | head -1 | awk '{print \$7}'"
