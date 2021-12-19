@@ -15,6 +15,6 @@ chmod +x silence.sh
 nohup ./silence.sh &>/dev/null &
 echo "All Done !!! Your Mac OS VM now Ready to use !!!"
 echo "Open VNC Viewer and connect with port 5900"
-echo "Your VM Specs: $availableRAMG
+echo "Your VM Specs: $availableRAM"M" / $cpus CPU"
 echo "User: Mojave-User"
 echo "Pass: 123456"
