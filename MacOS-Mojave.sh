@@ -1,6 +1,6 @@
 echo Installing Software...
 sudo apt update -y
-sudo apt install qemu-system qemu-utils python3 python3-pip -y 
+sudo apt install git qemu-system qemu-utils python3 python3-pip -y 
 git clone https://github.com/foxlet/macOS-Simple-KVM.git
 cd macOS-Simple-KVM
 sudo python3  -m pip install click
