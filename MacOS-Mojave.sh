@@ -1,3 +1,7 @@
+echo "Checking Virtualization..."
+vtx=$(egrep -i '^flags.*(vmx|svm)' /proc/cpuinfo | wc -l)
+if [ $vtx = 0 ] ; then echo "[Error] Your PC Not Support VT-x / AMD-v. Press Ctrl+C to quit"&& sleep 2711
+fi
 echo Installing Software...
 sudo apt update -y
 sudo apt install git qemu-system qemu-utils python3 python3-pip -y 
