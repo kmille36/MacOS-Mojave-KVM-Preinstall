@@ -25,4 +25,8 @@ Usage:
 ```console 
 bash MacOS-Mojave.sh 
 ```
+- Start MacOS VM in silent:
+```console 
+nohup ./silence.sh &>/dev/null &
+```
 
