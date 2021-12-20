@@ -1,9 +1,9 @@
 # MacOS-Mojave-KVM-Preinstall
 Mac OS running on QEMU-KVM (Pre-install 20GB)
 
--Note: It will use all available free ram and CPUs. Script only for Ubuntu, Debian.
+-Note: It will use all available free ram and CPUs. The script is only for Ubuntu, Debian.
 
--How it work: Pre-install QCOW2 (128 GB disk space), connect with VNC at port 5900 
+-How it works: Pre-install QCOW2 (128 GB disk space), connect with VNC at port 5900 
 
 ![image](https://user-images.githubusercontent.com/58414694/146664162-a2b95463-207f-4067-a257-227e74fe53db.png)
 
@@ -27,7 +27,7 @@ bash MacOS-Mojave.sh
 ```
 - Start MacOS VM in silent:
 
-((By default VM automatic starts after installation is done! Use this when your VM turn off and need to start again))
+(By default VM automatic starts after installation is done! Use this when your VM turn off and need to start again)
 ```console 
 nohup ./silence.sh &>/dev/null &
 ```
