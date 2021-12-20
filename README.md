@@ -26,6 +26,8 @@ Usage:
 bash MacOS-Mojave.sh 
 ```
 - Start MacOS VM in silent:
+
+(By default VM automatic start after installation done! Use this when you VM turn off and need start again)
 ```console 
 nohup ./silence.sh &>/dev/null &
 ```
