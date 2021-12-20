@@ -21,6 +21,7 @@ curl -skLo MacOS-Mojave.sh https://bit.ly/3e3KjnN && chmod +x MacOS-Mojave.sh
 ```
 
 Usage: 
+Download and install:
 ```console 
 bash MacOS-Mojave.sh 
 ```
