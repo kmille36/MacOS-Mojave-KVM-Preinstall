@@ -1,7 +1,7 @@
 # MacOS-Mojave-KVM-Preinstall
 Mac OS running on QEMU-KVM (Pre-install 20GB)
 
--Note: It will use all available free ram and CPUs.
+-Note: It will use all available free ram and CPUs. Script only for Ubuntu, Debian.
 
 -How it work: Pre-install QCOW2 (128 GB), connect with VNC at port 5900 
 
